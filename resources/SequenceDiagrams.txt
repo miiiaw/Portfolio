@@ -1,0 +1,5 @@
+GetProjects:
+https://www.mermaidchart.com/raw/f6df8039-816c-4d94-810f-8b473f0c408f?theme=light&version=v0.1&format=svg
+
+AddingProjects:
+https://www.mermaidchart.com/raw/a6d8dca8-ac46-4154-aeba-bef2b1076439?theme=light&version=v0.1&format=svg

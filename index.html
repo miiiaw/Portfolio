@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Projects</li>
+          <li>Contact</li>
+          <li>D.M.</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="projectsList"></div>
+
+      <section id="addProjectForm">
+        <h2>Add project</h2>
+        <form id="projectForm">
+          <input
+            type="text"
+            id="addProjectText"
+            placeholder="Title..."
+            required
+          />
+          <input type="date" id="addProjectDate" required />
+          <input
+            type="text"
+            id="addProjectDescription"
+            placeholder="Description..."
+            required
+          />
+          <input
+            type="text"
+            id="addProjectTech"
+            placeholder="Technologies..."
+            required
+          />
+          <input
+            type="text"
+            id="addProjectImage"
+            placeholder="Image URL..."
+            required
+          />
+          <input
+            type="text"
+            id="addProjectUrl"
+            placeholder="Project URL..."
+            required
+          />
+          <button type="submit" id="addProjectButton">Add</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

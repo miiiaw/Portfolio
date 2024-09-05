@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Furball",
+      "date": "2024-09-01",
+      "description": "Catch mouse and gave it as a present purr as loud as possible, knock everything off the table for sweet beast.",
+      "tech": "JavaScript, HTML, CSS",
+      "image": "path/to/furball-image.jpg",
+      "url": "https://furball-project.com"
+    },
+    {
+      "id": 2,
+      "title": "Ball of fluff",
+      "date": "2024-08-15",
+      "description": "Catch mouse and gave it as a present purr as loud as possible, knock everything off the table for sweet beast.",
+      "tech": "Python, Flask, HTML",
+      "image": "path/to/ball-of-fluff-image.jpg",
+      "url": "https://balloffluff.com"
+    }
+  ]
+}
