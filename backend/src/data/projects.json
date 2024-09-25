@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Furball",
+      "date": "2024-09-01",
+      "description": "Catch mouse and gave it as a present purr as loud as possible, knock everything off the table for sweet beast.",
+      "tech": ["JavaScript", "HTML"]
+    },
+    {
+      "id": 2,
+      "title": "Ball of fluff",
+      "date": "2024-08-15",
+      "description": "Roll around on the carpet, chase dust particles, and demand belly rubs only to change your mind the second a hand approaches.",
+      "tech": ["CSS", "HTML"]
+    },
+    {
+      "id": 3,
+      "title": "Whisker Wonderland",
+      "date": "2024-07-22",
+      "description": "Chase laser pointers, nap in sunbeams, and pounce on imaginary creatures. Become master of house decoration by shedding fur everywhere.",
+      "tech": ["React"]
+    },
+    {
+      "id": 4,
+      "title": "Paws & Claws",
+      "date": "2024-07-10",
+      "description": "Perform a dramatic stretch on human's keyboard, meow incessantly for food, and knock over water glasses for fun.",
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 5,
+      "title": "Mice in Disguise",
+      "date": "2024-06-28",
+      "description": "Pretend to be uninterested in toys, then suddenly launch into action. Stare into space mysteriously, as if pondering life's deep questions.",
+      "tech": ["JavaScript", "Figma"]
+    },
+    {
+      "id": 6,
+      "title": "Kitty Code Craze",
+      "date": "2024-06-01",
+      "description": "Debug human's code by walking across keyboard. Sit on the mouse (the real one). Make a nest out of discarded wires.",
+      "tech": ["React", "CSS"]
+    }
+  ]
+}
