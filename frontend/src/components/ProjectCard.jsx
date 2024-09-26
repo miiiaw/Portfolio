@@ -1,12 +1,18 @@
 import projectsApi from "../services/api";
 
 export default function ProjectCard({ project, setProjects }) {
-  // Funksjon for å kjøre async funksjon, for å sende forespørsel om å slette et prosjekt på serveren, som igjen sletter prosjektet på serveren, deretter oppdatere projects useState
-  // Usikker på om det blir helt riktig fremgangsmåte
-  const removeProject = async (id) => {
-    const removedId = await projectsApi.removeProject(id);
-    if (removedId) {
-      setProjects((prev) => prev.filter((project) => project.id !== removedId));
+  // Funksjon for å sende forespørsel om å slette et prosjekt på serveren
+  const handleRemoveProject = async (id) => {
+    try {
+      // Kaller removeProject og henter oppdatert fil fra server
+      const getUpdatedProjects = await projectsApi.removeProject(id);
+
+      // Oppdaterer staten
+      if (getUpdatedProjects) {
+        setProjects(getUpdatedProjects.projects);
+      }
+    } catch (error) {
+      console.error("Error:", error);
     }
   };
 
@@ -28,7 +34,7 @@ export default function ProjectCard({ project, setProjects }) {
           </section>
           <button
             className="removeButton"
-            onClick={() => removeProject(project.id)}
+            onClick={() => handleRemoveProject(project.id)}
           >
             Remove project
           </button>
