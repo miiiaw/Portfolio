@@ -34,7 +34,9 @@ const removeProject = async (id) => {
     await ofetch(`${projectsUrl}/${id}`, {
       method: "DELETE",
     });
-    return id;
+    // Hent og returner den oppdaterte filen fra serveren
+    const updatedProjects = await fetchProjects();
+    return updatedProjects;
   } catch (error) {
     console.error(error);
     return null;
