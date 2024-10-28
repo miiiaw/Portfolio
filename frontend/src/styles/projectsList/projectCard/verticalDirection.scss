@@ -1,0 +1,46 @@
+body {
+  #pageMainContent {
+    #projectsList {
+      &.vertical {
+        display: block;
+        width: 100%;
+        .projectCard {
+          margin: 10px 0px 30px 0px;
+          padding: 20px;
+          width: 80%;
+          height: 100%;
+          background-color: #a28efc;
+          border-radius: 9px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          .removeButton {
+            position: absolute;
+            top: 0px;
+            right: -40px;
+            margin: 3px;
+            padding: 0px;
+            border: none;
+            background-color: none;
+            width: 15%;
+            font-size: 1.3rem;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: transparent;
+          }
+          .projectText {
+            padding: 0;
+            width: 100%;
+            color: #1d152e;
+            p {
+              margin: 5px 0px 10px 0px;
+              padding: 0;
+              font-size: 16px;
+              color: #dfdfdf;
+            }
+          }
+        }
+      }
+    }
+  }
+}

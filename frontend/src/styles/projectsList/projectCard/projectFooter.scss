@@ -1,0 +1,31 @@
+body {
+  #pageMainContent {
+    #projectsList {
+      .projectCard {
+        .projectFooter {
+          margin: 0;
+          padding: 0;
+          ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            li {
+              margin: 5px;
+              padding: 8px;
+              border-radius: 9px;
+              color: #000000;
+              font-weight: 400;
+              background-color: #f1cf35;
+              cursor: pointer;
+              text-transform: lowercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}

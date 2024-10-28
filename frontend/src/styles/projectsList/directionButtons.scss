@@ -1,0 +1,40 @@
+body {
+  #pageMainContent {
+    .directionButtonsContainer {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+
+      label {
+        margin: 0 10px;
+        color: #1d152e;
+        font-size: 1rem;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        input[type="radio"] {
+          margin-right: 10px;
+          cursor: pointer;
+          appearance: none;
+          width: 20px;
+          height: 20px;
+          border: 2px solid #a28efc;
+          border-radius: 50%;
+          outline: none;
+          transition: background-color 0.3s ease;
+
+          &:checked {
+            background-color: #f1cf35;
+            border-color: #000000;
+          }
+
+          &:hover {
+            border-color: #000000;
+          }
+        }
+      }
+    }
+  }
+}

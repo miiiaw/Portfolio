@@ -1,0 +1,19 @@
+@import "categoryNavigation";
+@import "directionButtons";
+@import "./projectCard/projectFooter";
+@import "./projectCard/verticalDirection";
+@import "./projectCard/horizontalDirection";
+
+body {
+  #pageMainContent {
+    #projectsList {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-content: center;
+      width: 100%;
+    }
+  }
+}
